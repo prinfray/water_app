@@ -70,6 +70,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.1"
+  flutter_mobx:
+    dependency: transitive
+    description:
+      name: flutter_mobx
+      sha256: "5da58676cf445f9d7f16181581ed2a083193d156cf47ed05a9250be3605f8bba"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0+2"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -115,6 +123,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.0"
+  mobx:
+    dependency: transitive
+    description:
+      name: mobx
+      sha256: "39d8c5e606f92c2f581fa3b4506d34640dd049873f07b0f3e1884bbb87e00619"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.1+4"
+  mobx_provider:
+    dependency: "direct main"
+    description:
+      name: mobx_provider
+      sha256: d8bf381054f9237938e962a4caae014150ac1a49b8f8845079428abac89a7bb6
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.4"
+  nested:
+    dependency: transitive
+    description:
+      name: nested
+      sha256: "03bac4c528c64c95c722ec99280375a6f2fc708eec17c7b3f07253b626cd2a20"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   path:
     dependency: transitive
     description:
@@ -123,6 +155,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.2"
+  provider:
+    dependency: transitive
+    description:
+      name: provider
+      sha256: af58e866ea76fa7d156ea5e6ffa1c28b52dabff5c87fbdf265f7c6adaa7a741d
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.3.3"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -186,3 +226,4 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=2.18.2 <3.0.0"
+  flutter: ">=1.16.0"
