@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:water_app/screens/home_page.dart';
-import 'package:provider/provider.dart';
+// import 'package:provider/provider.dart';
 
 import 'data/exercice_data.dart';
 
@@ -14,11 +14,9 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-        create: (context) => WorkoutData(),
-        child: const MaterialApp(
+    return const MaterialApp(
           debugShowCheckedModeBanner: false,
           home: HomePage(),
-        ));
+        );
   }
 }
