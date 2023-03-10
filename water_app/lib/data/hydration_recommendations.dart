@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../screens/settings.dart';
 
 class HydrationRecommendations extends StatelessWidget {
   const HydrationRecommendations({super.key});
@@ -6,6 +7,18 @@ class HydrationRecommendations extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(actions: [
+        IconButton(
+          icon: const Icon(Icons.settings),
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const Settings()),
+            );
+          },
+        ),
+      ]),
+    );
   }
 }
